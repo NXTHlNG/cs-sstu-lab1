@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>cs-sstu-lessons</AssemblyName>
-    <RootNamespace>lessons</RootNamespace>
+    <AssemblyName>Lab1</AssemblyName>
+    <RootNamespace>Lab1</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
