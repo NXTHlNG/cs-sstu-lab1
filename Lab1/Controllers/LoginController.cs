@@ -21,6 +21,7 @@ namespace Lab1.Controllers
             return View();
         }
 
+        [HttpPost]
         public IActionResult SignIn(LoginViewModel model)
         {
             if (model.Login == null || model.Password == null)
