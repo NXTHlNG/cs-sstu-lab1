@@ -6,7 +6,7 @@ namespace Lab1.Models
     {
         [Required]
         [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Use latin letters only please")]
-        public string Login { get; set; }
+        public string Username { get; set; }
 
         [Required]
         [DataType(DataType.Password)]

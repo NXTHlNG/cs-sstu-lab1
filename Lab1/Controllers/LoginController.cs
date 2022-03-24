@@ -24,7 +24,7 @@ namespace Lab1.Controllers
         [HttpPost]
         public IActionResult SignIn(LoginViewModel model)
         {
-            if (model.Login == null || model.Password == null)
+            if (model.Username == null || model.Password == null)
             {
                 return View("InvalidSignIn");
             }
@@ -33,7 +33,7 @@ namespace Lab1.Controllers
 
             try
             {
-                confrimPass = dictionary[model.Login];
+                confrimPass = dictionary[model.Username];
             }
             catch (KeyNotFoundException e)
             {
