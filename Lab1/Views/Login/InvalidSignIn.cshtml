@@ -3,4 +3,4 @@
 }
 
 <p>Invalid login or password</p>
-<a asp-action="Index" class="btn btn-primary">Try Again</a>
+@Html.ActionLink("Try Again", "Index", null, null, new { @class="btn btn-primary" })
